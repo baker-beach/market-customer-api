@@ -10,14 +10,14 @@
 	<artifactId>market-customer-api</artifactId>
 	<name>market-customer-api</name>
 	<packaging>jar</packaging>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<properties>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.bakerbeach.market</groupId>
 			<artifactId>market-commons</artifactId>
-			<version>[1.0.0,)</version>
+			<version>[1.0.0,1.1.0)</version>
 		</dependency>
 	</dependencies>
 	<build>
