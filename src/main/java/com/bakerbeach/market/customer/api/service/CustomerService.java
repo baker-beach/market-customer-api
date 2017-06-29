@@ -20,6 +20,8 @@ public interface CustomerService {
 	Customer register(String email, String password, String shopCode) throws CustomerServiceException;
 
 	Customer register(String email, String password, List<String> shopCode) throws CustomerServiceException;
+	
+	Customer register(String email, String password, List<String> shopCode, String firstName, String lastName) throws CustomerServiceException;
 
 	Boolean checkPassword(Customer customer, String password) throws CustomerServiceException;
 
